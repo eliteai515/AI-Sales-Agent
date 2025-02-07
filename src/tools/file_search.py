@@ -41,3 +41,14 @@ class GetStoreInfo(BaseTool):
 
     def run(self):
         return get_store_info(self.search_query)
+
+
+# class GetStoreInfo(BaseTool):
+#     """
+#     A tool that retrieves information about TechNerds' business, services, and products based on the provided query.
+#     """
+
+#     search_query: str = Field(description="Search query")
+
+#     def run(self):
+#         return get_store_info(self.search_query)
